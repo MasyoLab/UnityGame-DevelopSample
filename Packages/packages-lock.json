@@ -1,5 +1,19 @@
 {
   "dependencies": {
+    "com.masyo-lab.favorites-asset": {
+      "version": "https://github.com/MasyoLab/UnityTools-FavoritesAsset.git?path=Assets/MasyoLab/FavoritesAsset",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "bbcbd056ab8b64c4ffde5823dd8a8520c1887dd4"
+    },
+    "com.masyo-lab.unity-game_framework": {
+      "version": "https://github.com/MasyoLab/Unity-GameFramework.git?path=Assets/MasyoLab/GameFramework",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "895a91b35350e1003279b3b57723a0279e7a25f4"
+    },
     "com.unity.burst": {
       "version": "1.4.11",
       "depth": 1,
