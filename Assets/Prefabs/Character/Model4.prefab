@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6602682490930363677}
   - component: {fileID: 41688074680558343}
-  - component: {fileID: 1416481772219762964}
+  - component: {fileID: 2918886212188407206}
   m_Layer: 0
   m_Name: Model4
   m_TagString: Untagged
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 3934221908821970322}
---- !u!114 &1416481772219762964
+--- !u!114 &2918886212188407206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -58,6 +58,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e688d4e523eb2284d9f8f3cfcf260f51, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _blendShapesSettingData: {fileID: 11400000, guid: a64a86db318b4124fa5b47afd7061ea0,
+    type: 2}
 --- !u!1001 &6602682491309001723
 PrefabInstance:
   m_ObjectHideFlags: 0

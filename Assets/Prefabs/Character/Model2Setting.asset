@@ -1,0 +1,2483 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ef897031b1cc34646992f4806afbd664, type: 3}
+  m_Name: Model2Setting
+  m_EditorClassIdentifier: 
+  BlendShapesDataList:
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_ch
+    ShapeIndex: 0
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_dd
+    ShapeIndex: 1
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_e
+    ShapeIndex: 2
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_ff
+    ShapeIndex: 3
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_ih
+    ShapeIndex: 4
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_kk
+    ShapeIndex: 5
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_nn
+    ShapeIndex: 6
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_oh
+    ShapeIndex: 7
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_ou
+    ShapeIndex: 8
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_pp
+    ShapeIndex: 9
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_aa
+    ShapeIndex: 10
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_rr
+    ShapeIndex: 11
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_sil
+    ShapeIndex: 12
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_ss
+    ShapeIndex: 13
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.v_th
+    ShapeIndex: 14
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.blink
+    ShapeIndex: 15
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.looking_down
+    ShapeIndex: 16
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: vrc.looking_up
+    ShapeIndex: 17
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3042"
+    ShapeIndex: 18
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3044"
+    ShapeIndex: 19
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3046"
+    ShapeIndex: 20
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3048"
+    ShapeIndex: 21
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u304A"
+    ShapeIndex: 22
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ---------Eye---------
+    ShapeIndex: 23
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_brink_1
+    ShapeIndex: 24
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_brink_1_L
+    ShapeIndex: 25
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_brink_1_R
+    ShapeIndex: 26
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_brink_2
+    ShapeIndex: 27
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_brink_2_L
+    ShapeIndex: 28
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_brink_2_R
+    ShapeIndex: 29
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_smile_1
+    ShapeIndex: 30
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_smile_1_L
+    ShapeIndex: 31
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_smile_1_R
+    ShapeIndex: 32
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_smile_2
+    ShapeIndex: 33
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_smile_2_L
+    ShapeIndex: 34
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_smile_2_R
+    ShapeIndex: 35
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_nagomi
+    ShapeIndex: 36
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_nagomi_L
+    ShapeIndex: 37
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_nagomi_R
+    ShapeIndex: 38
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_jito_1
+    ShapeIndex: 39
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_jito_1_L
+    ShapeIndex: 40
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_jito_1_R
+    ShapeIndex: 41
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_jito_2
+    ShapeIndex: 42
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_jito_2_L
+    ShapeIndex: 43
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_jito_2_R
+    ShapeIndex: 44
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_happy
+    ShapeIndex: 45
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_happy_L
+    ShapeIndex: 46
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_happy_R
+    ShapeIndex: 47
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_angry
+    ShapeIndex: 48
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_angry_L
+    ShapeIndex: 49
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_angry_R
+    ShapeIndex: 50
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sad
+    ShapeIndex: 51
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sad_L
+    ShapeIndex: 52
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sad_R
+    ShapeIndex: 53
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_surprise
+    ShapeIndex: 54
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_surprise_L
+    ShapeIndex: 55
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_surprise_R
+    ShapeIndex: 56
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sleepy_1
+    ShapeIndex: 57
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sleepy_1_L
+    ShapeIndex: 58
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sleepy_1_R
+    ShapeIndex: 59
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sleepy_2
+    ShapeIndex: 60
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sleepy_2_L
+    ShapeIndex: 61
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_sleepy_2_R
+    ShapeIndex: 62
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tsuri_1
+    ShapeIndex: 63
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tsuri_1_L
+    ShapeIndex: 64
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tsuri_1_R
+    ShapeIndex: 65
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tsuri_2
+    ShapeIndex: 66
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tsuri_2_L
+    ShapeIndex: 67
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tsuri_2_R
+    ShapeIndex: 68
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tare_1
+    ShapeIndex: 69
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tare_1_L
+    ShapeIndex: 70
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tare_1_R
+    ShapeIndex: 71
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tare_2
+    ShapeIndex: 72
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tare_2_L
+    ShapeIndex: 73
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_tare_2_R
+    ShapeIndex: 74
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_up_1
+    ShapeIndex: 75
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_up_1_L
+    ShapeIndex: 76
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_up_1_R
+    ShapeIndex: 77
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_up_2
+    ShapeIndex: 78
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_up_2_L
+    ShapeIndex: 79
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_up_2_R
+    ShapeIndex: 80
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_down_1
+    ShapeIndex: 81
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_down_1_L
+    ShapeIndex: 82
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_down_1_R
+    ShapeIndex: 83
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_down_2
+    ShapeIndex: 84
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_down_2_L
+    ShapeIndex: 85
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_down_2_R
+    ShapeIndex: 86
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_tsuri
+    ShapeIndex: 87
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_tsuri_L
+    ShapeIndex: 88
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_tsuri_R
+    ShapeIndex: 89
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_tare
+    ShapeIndex: 90
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_tare_L
+    ShapeIndex: 91
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_tare_R
+    ShapeIndex: 92
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_thick
+    ShapeIndex: 93
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerEyelid_thin
+    ShapeIndex: 94
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_look_up
+    ShapeIndex: 95
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_look_down
+    ShapeIndex: 96
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_look_left
+    ShapeIndex: 97
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_look_right
+    ShapeIndex: 98
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_look_inside
+    ShapeIndex: 99
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_look_outside
+    ShapeIndex: 100
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_OFF
+    ShapeIndex: 101
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_dark
+    ShapeIndex: 102
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_marushiro
+    ShapeIndex: 103
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_big
+    ShapeIndex: 104
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_small
+    ShapeIndex: 105
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_\u3007_1"
+    ShapeIndex: 106
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_\u3007_2"
+    ShapeIndex: 107
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_cat
+    ShapeIndex: 108
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_uru
+    ShapeIndex: 109
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_OFF
+    ShapeIndex: 110
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_white
+    ShapeIndex: 111
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_big
+    ShapeIndex: 112
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_small
+    ShapeIndex: 113
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_up
+    ShapeIndex: 114
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_down
+    ShapeIndex: 115
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_close
+    ShapeIndex: 116
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_far
+    ShapeIndex: 117
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_cat
+    ShapeIndex: 118
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_heart
+    ShapeIndex: 119
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_heart_big
+    ShapeIndex: 120
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_star
+    ShapeIndex: 121
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_star_big
+    ShapeIndex: 122
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u3007"
+    ShapeIndex: 123
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u3007_big"
+    ShapeIndex: 124
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u25A1"
+    ShapeIndex: 125
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u25A1_big"
+    ShapeIndex: 126
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u25C7_1"
+    ShapeIndex: 127
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u25C7_1_big"
+    ShapeIndex: 128
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u25C7_2"
+    ShapeIndex: 129
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "eye_pupil_\u25C7_2_big"
+    ShapeIndex: 130
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_+_1
+    ShapeIndex: 131
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_+_1_big
+    ShapeIndex: 132
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_+_2
+    ShapeIndex: 133
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_+_2_big
+    ShapeIndex: 134
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_x_1
+    ShapeIndex: 135
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_x_1_big
+    ShapeIndex: 136
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_x_2
+    ShapeIndex: 137
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_pupil_x_2_big
+    ShapeIndex: 138
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "highlight_\u3007"
+    ShapeIndex: 139
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_0
+    ShapeIndex: 140
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_heart
+    ShapeIndex: 141
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_kirakira
+    ShapeIndex: 142
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_star
+    ShapeIndex: 143
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_option_1
+    ShapeIndex: 144
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_option_2
+    ShapeIndex: 145
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_OFF_1
+    ShapeIndex: 146
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_OFF_2
+    ShapeIndex: 147
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_OFF_3
+    ShapeIndex: 148
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_OFF_4
+    ShapeIndex: 149
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_1_close
+    ShapeIndex: 150
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_1_far
+    ShapeIndex: 151
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_2_close
+    ShapeIndex: 152
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_2_far
+    ShapeIndex: 153
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_up_1
+    ShapeIndex: 154
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_up_2
+    ShapeIndex: 155
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_up_3
+    ShapeIndex: 156
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_up_4
+    ShapeIndex: 157
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_down_1
+    ShapeIndex: 158
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_down_2
+    ShapeIndex: 159
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_down_3
+    ShapeIndex: 160
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_down_4
+    ShapeIndex: 161
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_big_1
+    ShapeIndex: 162
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_big_2
+    ShapeIndex: 163
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_big_3
+    ShapeIndex: 164
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_big_4
+    ShapeIndex: 165
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_small_1
+    ShapeIndex: 166
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_small_2
+    ShapeIndex: 167
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_small_3
+    ShapeIndex: 168
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: highlight_small_4
+    ShapeIndex: 169
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_1
+    ShapeIndex: 170
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_2
+    ShapeIndex: 171
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_3
+    ShapeIndex: 172
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_4
+    ShapeIndex: 173
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_5
+    ShapeIndex: 174
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_6
+    ShapeIndex: 175
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_7
+    ShapeIndex: 176
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_8
+    ShapeIndex: 177
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_9
+    ShapeIndex: 178
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_10
+    ShapeIndex: 179
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_11
+    ShapeIndex: 180
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_OFF_12
+    ShapeIndex: 181
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_eyelashes_thick
+    ShapeIndex: 182
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thick_1
+    ShapeIndex: 183
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thick_2
+    ShapeIndex: 184
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thick_3
+    ShapeIndex: 185
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_eyelashes_thin
+    ShapeIndex: 186
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: lower_eyelashes_thin
+    ShapeIndex: 187
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_1
+    ShapeIndex: 188
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_2
+    ShapeIndex: 189
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_3
+    ShapeIndex: 190
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_4
+    ShapeIndex: 191
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_5
+    ShapeIndex: 192
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_6
+    ShapeIndex: 193
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_thin_7
+    ShapeIndex: 194
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_1
+    ShapeIndex: 195
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_2
+    ShapeIndex: 196
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_3
+    ShapeIndex: 197
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_4
+    ShapeIndex: 198
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_5
+    ShapeIndex: 199
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_6
+    ShapeIndex: 200
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_big_7
+    ShapeIndex: 201
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_1
+    ShapeIndex: 202
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_2
+    ShapeIndex: 203
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_3
+    ShapeIndex: 204
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_4
+    ShapeIndex: 205
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_5
+    ShapeIndex: 206
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_6
+    ShapeIndex: 207
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_small_7
+    ShapeIndex: 208
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_line_forward
+    ShapeIndex: 209
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_line_forward_L
+    ShapeIndex: 210
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelash_line_forward_R
+    ShapeIndex: 211
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_OFF
+    ShapeIndex: 212
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_highlight_OFF
+    ShapeIndex: 213
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_thin_1
+    ShapeIndex: 214
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_thin_2
+    ShapeIndex: 215
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_up
+    ShapeIndex: 216
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_up_L
+    ShapeIndex: 217
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_up_R
+    ShapeIndex: 218
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_down
+    ShapeIndex: 219
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_down_L
+    ShapeIndex: 220
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_down_R
+    ShapeIndex: 221
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_forward_1
+    ShapeIndex: 222
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_forward_1_L
+    ShapeIndex: 223
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_forward_1_R
+    ShapeIndex: 224
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_forward_2
+    ShapeIndex: 225
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_forward_2_L
+    ShapeIndex: 226
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_forward_2_R
+    ShapeIndex: 227
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_tsuri
+    ShapeIndex: 228
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_tsuri_L
+    ShapeIndex: 229
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_tsuri_R
+    ShapeIndex: 230
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_tare
+    ShapeIndex: 231
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_tare_L
+    ShapeIndex: 232
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelid_line_tare_R
+    ShapeIndex: 233
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_middle_up
+    ShapeIndex: 234
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_middle_up_L
+    ShapeIndex: 235
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_middle_up_R
+    ShapeIndex: 236
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_middle_down
+    ShapeIndex: 237
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_middle_down_L
+    ShapeIndex: 238
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_middle_down_R
+    ShapeIndex: 239
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_inner_up
+    ShapeIndex: 240
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_inner_up_L
+    ShapeIndex: 241
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_inner_up_R
+    ShapeIndex: 242
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_inner_down
+    ShapeIndex: 243
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_inner_down_L
+    ShapeIndex: 244
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_inner_down_R
+    ShapeIndex: 245
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_up
+    ShapeIndex: 246
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_up_L
+    ShapeIndex: 247
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_up_R
+    ShapeIndex: 248
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_down
+    ShapeIndex: 249
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_down_L
+    ShapeIndex: 250
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_down_R
+    ShapeIndex: 251
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_1_up
+    ShapeIndex: 252
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_1_down
+    ShapeIndex: 253
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_1_long
+    ShapeIndex: 254
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_1_short
+    ShapeIndex: 255
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_2_thin
+    ShapeIndex: 256
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_2_long
+    ShapeIndex: 257
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_outer_tail_2_short
+    ShapeIndex: 258
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_inner_wide
+    ShapeIndex: 259
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_outer_wide_1
+    ShapeIndex: 260
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_outer_wide_2
+    ShapeIndex: 261
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_thin
+    ShapeIndex: 262
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyelashes_thik
+    ShapeIndex: 263
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_up
+    ShapeIndex: 264
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_down
+    ShapeIndex: 265
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_close
+    ShapeIndex: 266
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_far
+    ShapeIndex: 267
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_size_big
+    ShapeIndex: 268
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_size_small
+    ShapeIndex: 269
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_width_up
+    ShapeIndex: 270
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_width_down
+    ShapeIndex: 271
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_height_up
+    ShapeIndex: 272
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eye_height_down
+    ShapeIndex: 273
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ---------Mouth---------
+    ShapeIndex: 274
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: A
+    ShapeIndex: 275
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: I
+    ShapeIndex: 276
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: U
+    ShapeIndex: 277
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: E
+    ShapeIndex: 278
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: O
+    ShapeIndex: 279
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: A_simple
+    ShapeIndex: 280
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: I_simple
+    ShapeIndex: 281
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: U_simple
+    ShapeIndex: 282
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: E_simple
+    ShapeIndex: 283
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: O_simple
+    ShapeIndex: 284
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_straight
+    ShapeIndex: 285
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_straight_L
+    ShapeIndex: 286
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_straight_R
+    ShapeIndex: 287
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_smile
+    ShapeIndex: 288
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_smile_L
+    ShapeIndex: 289
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_smile_R
+    ShapeIndex: 290
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_angry
+    ShapeIndex: 291
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_angry_L
+    ShapeIndex: 292
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_angry_R
+    ShapeIndex: 293
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_up
+    ShapeIndex: 294
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_up_simple
+    ShapeIndex: 295
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_down
+    ShapeIndex: 296
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_down_simple
+    ShapeIndex: 297
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_forward
+    ShapeIndex: 298
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_back
+    ShapeIndex: 299
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wide
+    ShapeIndex: 300
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wide_L
+    ShapeIndex: 301
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wide_R
+    ShapeIndex: 302
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_narrow
+    ShapeIndex: 303
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_narrow_L
+    ShapeIndex: 304
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_narrow_R
+    ShapeIndex: 305
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wide_ALL
+    ShapeIndex: 306
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_narrow_ALL_L
+    ShapeIndex: 307
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_narrow_ALL_R
+    ShapeIndex: 308
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_narrow_ALL
+    ShapeIndex: 309
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wide_ALL_L
+    ShapeIndex: 310
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wide_ALL_R
+    ShapeIndex: 311
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_puku-
+    ShapeIndex: 312
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_puku-_L
+    ShapeIndex: 313
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_puku-_R
+    ShapeIndex: 314
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_grin_L
+    ShapeIndex: 315
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_grin_R
+    ShapeIndex: 316
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_yodare_L
+    ShapeIndex: 317
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_yodare_R
+    ShapeIndex: 318
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_hawa
+    ShapeIndex: 319
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_V
+    ShapeIndex: 320
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u039B"
+    ShapeIndex: 321
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u25B3"
+    ShapeIndex: 322
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_~
+    ShapeIndex: 323
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_~\u25A1"
+    ShapeIndex: 324
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_wa
+    ShapeIndex: 325
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_e-_1
+    ShapeIndex: 326
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_e-_2
+    ShapeIndex: 327
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_i-_1
+    ShapeIndex: 328
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_i-_2
+    ShapeIndex: 329
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_O
+    ShapeIndex: 330
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u25A1_1"
+    ShapeIndex: 331
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u25A1_2"
+    ShapeIndex: 332
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u03C9"
+    ShapeIndex: 333
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u03C9_upper_lip"
+    ShapeIndex: 334
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u03C9_open"
+    ShapeIndex: 335
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u03C9_2"
+    ShapeIndex: 336
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u03C9_upper_lip_2"
+    ShapeIndex: 337
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "mouth_\u03C9_2_open"
+    ShapeIndex: 338
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: yaeba_L
+    ShapeIndex: 339
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: yaeba_R
+    ShapeIndex: 340
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: yaeba_2_L
+    ShapeIndex: 341
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: yaeba_2_R
+    ShapeIndex: 342
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: yaeba_3_L
+    ShapeIndex: 343
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: yaeba_3_R
+    ShapeIndex: 344
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: gizaba_upper_tooth
+    ShapeIndex: 345
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: gizaba_lower_tooth
+    ShapeIndex: 346
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_tooth_OFF
+    ShapeIndex: 347
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_tooth_up
+    ShapeIndex: 348
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_tooth_down
+    ShapeIndex: 349
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_tooth_wide
+    ShapeIndex: 350
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: upper_tooth_narrow
+    ShapeIndex: 351
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: lower_tooth_OFF
+    ShapeIndex: 352
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: lower_tooth_up
+    ShapeIndex: 353
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: lower_tooth_down
+    ShapeIndex: 354
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: lower_tooth_wide
+    ShapeIndex: 355
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: lower_tooth_narrow
+    ShapeIndex: 356
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_pero_1
+    ShapeIndex: 357
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_pero_2
+    ShapeIndex: 358
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_pero_3
+    ShapeIndex: 359
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_tehepero_1_L
+    ShapeIndex: 360
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_tehepero_1_R
+    ShapeIndex: 361
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: mouth_tehepero_2
+    ShapeIndex: 362
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_forward
+    ShapeIndex: 363
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_back
+    ShapeIndex: 364
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_up
+    ShapeIndex: 365
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_down
+    ShapeIndex: 366
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_up_option
+    ShapeIndex: 367
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_down_option
+    ShapeIndex: 368
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_wide
+    ShapeIndex: 369
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_narrow
+    ShapeIndex: 370
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "bero_\u25BD"
+    ShapeIndex: 371
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: bero_OFF
+    ShapeIndex: 372
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ---------Eyebrow---------
+    ShapeIndex: 373
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_smile
+    ShapeIndex: 374
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_smile_L
+    ShapeIndex: 375
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_smile_R
+    ShapeIndex: 376
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_straight
+    ShapeIndex: 377
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_straight_L
+    ShapeIndex: 378
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_straight_R
+    ShapeIndex: 379
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_angry_1
+    ShapeIndex: 380
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_angry_1_L
+    ShapeIndex: 381
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_angry_1_R
+    ShapeIndex: 382
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_angry_2
+    ShapeIndex: 383
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_angry_2_L
+    ShapeIndex: 384
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_angry_2_R
+    ShapeIndex: 385
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_sad
+    ShapeIndex: 386
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_sad_L
+    ShapeIndex: 387
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_sad_R
+    ShapeIndex: 388
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_up
+    ShapeIndex: 389
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_up_L
+    ShapeIndex: 390
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_up_R
+    ShapeIndex: 391
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_down
+    ShapeIndex: 392
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_down_L
+    ShapeIndex: 393
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_down_R
+    ShapeIndex: 394
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_tsuri
+    ShapeIndex: 395
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_tsuri_L
+    ShapeIndex: 396
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_tsuri_R
+    ShapeIndex: 397
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_tare
+    ShapeIndex: 398
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_tare_L
+    ShapeIndex: 399
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_tare_R
+    ShapeIndex: 400
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_close
+    ShapeIndex: 401
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_far
+    ShapeIndex: 402
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_thin
+    ShapeIndex: 403
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_thin_L
+    ShapeIndex: 404
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_thin_R
+    ShapeIndex: 405
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_thick
+    ShapeIndex: 406
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_thick_L
+    ShapeIndex: 407
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_thick_R
+    ShapeIndex: 408
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_1
+    ShapeIndex: 409
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_1_L
+    ShapeIndex: 410
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_1_R
+    ShapeIndex: 411
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_2
+    ShapeIndex: 412
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_2_L
+    ShapeIndex: 413
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_2_R
+    ShapeIndex: 414
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_3
+    ShapeIndex: 415
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_3_L
+    ShapeIndex: 416
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_forward_3_R
+    ShapeIndex: 417
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_1
+    ShapeIndex: 418
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_1_L
+    ShapeIndex: 419
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_1_R
+    ShapeIndex: 420
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_2
+    ShapeIndex: 421
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_2_L
+    ShapeIndex: 422
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_2_R
+    ShapeIndex: 423
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_3
+    ShapeIndex: 424
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_3_L
+    ShapeIndex: 425
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_back_3_R
+    ShapeIndex: 426
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: eyebrow_maromayu
+    ShapeIndex: 427
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ---------Face---------
+    ShapeIndex: 428
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_puku-
+    ShapeIndex: 429
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_puku-_L
+    ShapeIndex: 430
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_puku-_R
+    ShapeIndex: 431
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_wide
+    ShapeIndex: 432
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_narrow
+    ShapeIndex: 433
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_up
+    ShapeIndex: 434
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: cheek_down
+    ShapeIndex: 435
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: jaw_long
+    ShapeIndex: 436
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: jaw_short
+    ShapeIndex: 437
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: jaw_round
+    ShapeIndex: 438
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: jaw_sharp
+    ShapeIndex: 439
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: nose_line_OFF
+    ShapeIndex: 440
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ear_OFF
+    ShapeIndex: 441
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ear_elf_1
+    ShapeIndex: 442
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ear_elf_2
+    ShapeIndex: 443
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: nose_up
+    ShapeIndex: 444
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: nose_down
+    ShapeIndex: 445
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: face_child
+    ShapeIndex: 446
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: face_adult
+    ShapeIndex: 447
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ---------Option---------
+    ShapeIndex: 448
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_shiitake
+    ShapeIndex: 449
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_shiitake_big
+    ShapeIndex: 450
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_heart
+    ShapeIndex: 451
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_heart_big
+    ShapeIndex: 452
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_guruguru
+    ShapeIndex: 453
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_star
+    ShapeIndex: 454
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_flower
+    ShapeIndex: 455
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_pale_blue
+    ShapeIndex: 456
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_><
+    ShapeIndex: 457
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_hachume
+    ShapeIndex: 458
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_hoppe
+    ShapeIndex: 459
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_shy_1
+    ShapeIndex: 460
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_shy_2
+    ShapeIndex: 461
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_shy_3
+    ShapeIndex: 462
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_tear_1
+    ShapeIndex: 463
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_tear_2
+    ShapeIndex: 464
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_tear_3_L
+    ShapeIndex: 465
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_tear_3_R
+    ShapeIndex: 466
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_sweat_1
+    ShapeIndex: 467
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_sweat_2
+    ShapeIndex: 468
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Option_sweat_3
+    ShapeIndex: 469
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: ---------M M D---------
+    ShapeIndex: 470
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u307E\u3070\u305F\u304D"
+    ShapeIndex: 471
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u7B11\u3044"
+    ShapeIndex: 472
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u30A6\u30A3\u30F3\u30AF"
+    ShapeIndex: 473
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u30A6\u30A3\u30F3\u30AF\u53F3"
+    ShapeIndex: 474
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u30A6\u30A3\u30F3\u30AF\uFF12"
+    ShapeIndex: 475
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\uFF73\uFF68\uFF9D\uFF78\uFF12\u53F3"
+    ShapeIndex: 476
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306A\u3054\u307F"
+    ShapeIndex: 477
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3073\u3063\u304F\u308A"
+    ShapeIndex: 478
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3058\u3068\u76EE"
+    ShapeIndex: 479
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\uFF77\uFF98\uFF6F"
+    ShapeIndex: 480
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u661F\u76EE"
+    ShapeIndex: 481
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306F\u3041\u3068"
+    ShapeIndex: 482
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u77B3\u5C0F"
+    ShapeIndex: 483
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u77B3\u5927"
+    ShapeIndex: 484
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u5149\u4E0B"
+    ShapeIndex: 485
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u30CF\u30A4\u30E9\u30A4\u30C8\u6D88\u3057"
+    ShapeIndex: 486
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u6050\u308D\u3057\u3044\u5B50\uFF01"
+    ShapeIndex: 487
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u039B"
+    ShapeIndex: 488
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u25B2"
+    ShapeIndex: 489
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u30EF"
+    ShapeIndex: 490
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u03C9"
+    ShapeIndex: 491
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u03C9\u25A1"
+    ShapeIndex: 492
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u25A1"
+    ShapeIndex: 493
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306F\u3093\u3063\uFF01"
+    ShapeIndex: 494
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3093"
+    ShapeIndex: 495
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3042\uFF12"
+    ShapeIndex: 496
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u3048\u30FC"
+    ShapeIndex: 497
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306B\u3084\u308A"
+    ShapeIndex: 498
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306B\u3063\u3053\u308A"
+    ShapeIndex: 499
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u307A\u308D\u3063"
+    ShapeIndex: 500
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u53E3\u89D2\u4E0A\u3052"
+    ShapeIndex: 501
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u53E3\u89D2\u4E0B\u3052"
+    ShapeIndex: 502
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u53E3\u89D2\u5E83\u3052"
+    ShapeIndex: 503
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u771F\u9762\u76EE"
+    ShapeIndex: 504
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u56F0\u308B"
+    ShapeIndex: 505
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306B\u3053\u308A"
+    ShapeIndex: 506
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u6012\u308A"
+    ShapeIndex: 507
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u4E0A"
+    ShapeIndex: 508
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u4E0B"
+    ShapeIndex: 509
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u7167\u308C"
+    ShapeIndex: 510
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u6D99"
+    ShapeIndex: 511
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: "\u306F\u3061\u3085\u76EE"
+    ShapeIndex: 512
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Foot_HighHeel
+    ShapeIndex: 0
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Waist_slim
+    ShapeIndex: 1
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Nail_point
+    ShapeIndex: 2
+    BlendShapeWeight: 25
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: -------Breasts-------
+    ShapeIndex: 3
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Breasts_big
+    ShapeIndex: 4
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Breasts_small
+    ShapeIndex: 5
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Breasts_push_up
+    ShapeIndex: 6
+    BlendShapeWeight: 100
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Nipple_ON
+    ShapeIndex: 7
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Nipple_big
+    ShapeIndex: 8
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Nipple_small
+    ShapeIndex: 9
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: --------Shrink--------
+    ShapeIndex: 10
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Shoulder_OFF
+    ShapeIndex: 11
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperArm_OFF
+    ShapeIndex: 12
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Elbow_OFF
+    ShapeIndex: 13
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerArm_OFF
+    ShapeIndex: 14
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Wrist_OFF
+    ShapeIndex: 15
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hand_OFF
+    ShapeIndex: 16
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Finger_OFF
+    ShapeIndex: 17
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Neck_OFF
+    ShapeIndex: 18
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Chest_1_OFF
+    ShapeIndex: 19
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Chest_2_OFF
+    ShapeIndex: 20
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Spine_1_OFF
+    ShapeIndex: 21
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Spine_2_OFF
+    ShapeIndex: 22
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hip_OFF
+    ShapeIndex: 23
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperLeg_1_OFF
+    ShapeIndex: 24
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperLeg_2_OFF
+    ShapeIndex: 25
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Knee_OFF
+    ShapeIndex: 26
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerLeg_1_OFF
+    ShapeIndex: 27
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerLeg_2_OFF
+    ShapeIndex: 28
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Ankle_OFF
+    ShapeIndex: 29
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Foot_OFF
+    ShapeIndex: 30
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Toe_OFF
+    ShapeIndex: 31
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: --------Separate--------
+    ShapeIndex: 32
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Shoulder_OFF_L
+    ShapeIndex: 33
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Shoulder_OFF_R
+    ShapeIndex: 34
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperArm_OFF_L
+    ShapeIndex: 35
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperArm_OFF_R
+    ShapeIndex: 36
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Elbow_OFF_L
+    ShapeIndex: 37
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Elbow_OFF_R
+    ShapeIndex: 38
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Wrist_OFF_L
+    ShapeIndex: 39
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Wrist_OFF_R
+    ShapeIndex: 40
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerArm_OFF_L
+    ShapeIndex: 41
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerArm_OFF_R
+    ShapeIndex: 42
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hand_OFF_L
+    ShapeIndex: 43
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hand_OFF_R
+    ShapeIndex: 44
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Finger_OFF_L
+    ShapeIndex: 45
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Finger_OFF_R
+    ShapeIndex: 46
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperLeg_1_OFF_L
+    ShapeIndex: 47
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperLeg_1_OFF_R
+    ShapeIndex: 48
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperLeg_2_OFF_L
+    ShapeIndex: 49
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: UpperLeg_2_OFF_R
+    ShapeIndex: 50
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Knee_OFF_L
+    ShapeIndex: 51
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Knee_OFF_R
+    ShapeIndex: 52
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerLeg_1_OFF_L
+    ShapeIndex: 53
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerLeg_1_OFF_R
+    ShapeIndex: 54
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerLeg_2_OFF_L
+    ShapeIndex: 55
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: LowerLeg_2_OFF_R
+    ShapeIndex: 56
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Ankle_OFF_L
+    ShapeIndex: 57
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Ankle_OFF_R
+    ShapeIndex: 58
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Foot_OFF_L
+    ShapeIndex: 59
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Foot_OFF_R
+    ShapeIndex: 60
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Toe_OFF_L
+    ShapeIndex: 61
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Toe_OFF_R
+    ShapeIndex: 62
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bra_Waist_slim
+    ShapeIndex: 0
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bra_Breasts_big
+    ShapeIndex: 1
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bra_Breasts_small
+    ShapeIndex: 2
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bra_push_up
+    ShapeIndex: 3
+    BlendShapeWeight: 100
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bra_Nipple_ON
+    ShapeIndex: 4
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bangs_long_1
+    ShapeIndex: 0
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bangs_long_2
+    ShapeIndex: 1
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bangs_short
+    ShapeIndex: 2
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bangs_volume_up
+    ShapeIndex: 3
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bangs_straight_1
+    ShapeIndex: 4
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Bangs_straight_2
+    ShapeIndex: 5
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_long
+    ShapeIndex: 6
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_short
+    ShapeIndex: 7
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_volume_up
+    ShapeIndex: 8
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_volume_down
+    ShapeIndex: 9
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_breasts_big
+    ShapeIndex: 10
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_breasts_small
+    ShapeIndex: 11
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_curve
+    ShapeIndex: 12
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_long
+    ShapeIndex: 13
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_short
+    ShapeIndex: 14
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_volume_up
+    ShapeIndex: 15
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_volume_down
+    ShapeIndex: 16
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_back_long
+    ShapeIndex: 17
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_back_short
+    ShapeIndex: 18
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_back_volume_down
+    ShapeIndex: 19
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Ahoge_OFF
+    ShapeIndex: 20
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_OFF_1
+    ShapeIndex: 21
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_side_OFF_2
+    ShapeIndex: 22
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: HairClip_OFF
+    ShapeIndex: 23
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_OFF
+    ShapeIndex: 24
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: -------Hair_Separate-------
+    ShapeIndex: 25
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_OFF_L
+    ShapeIndex: 26
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_OFF_R
+    ShapeIndex: 27
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_long_L
+    ShapeIndex: 28
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_long_R
+    ShapeIndex: 29
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_short_L
+    ShapeIndex: 30
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_short_R
+    ShapeIndex: 31
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_volume_up_L
+    ShapeIndex: 32
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_volume_up_R
+    ShapeIndex: 33
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_volume_down_L
+    ShapeIndex: 34
+    BlendShapeWeight: 0
+  - SkinnedMeshRenderer: {fileID: 0}
+    BlendShapeName: Hair_tail_volume_down_R
+    ShapeIndex: 35
+    BlendShapeWeight: 0
