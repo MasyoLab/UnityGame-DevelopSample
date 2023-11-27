@@ -11,59 +11,50 @@ namespace MasyoLab.Game.DevelopSample
     public class BlendShapesSettingEditor : UnityEditor.Editor
     {
         private BlendShapesSetting _blendShapesSetting => (BlendShapesSetting)target;
-        private Dictionary<string, BlendShapesData> _blendShapesSettingDataDict = new Dictionary<string, BlendShapesData>();
-        private float _breastsBigValue = 0;
-        private float _breastsSmallValue = 0;
+        private List<Dictionary<string, BlendShapesData>> _blendShapesSettingDataList = new List<Dictionary<string, BlendShapesData>>();
+        private Dictionary<string, List<BlendShapesData>> _customBlendShapesSettingDict = new Dictionary<string, List<BlendShapesData>>();
 
         private void OnEnable()
         {
-            if (!_blendShapesSettingDataDict.Any())
+            if (!_blendShapesSettingDataList.Any())
             {
                 var skinnedMeshRenderers = _blendShapesSetting.GetComponentsInChildren<SkinnedMeshRenderer>();
                 foreach (var skinnedMeshRenderer in skinnedMeshRenderers)
                 {
+                    var blendShapesSettingDataDict = new Dictionary<string, BlendShapesData>(skinnedMeshRenderer.sharedMesh.blendShapeCount);
+                    _blendShapesSettingDataList.Add(blendShapesSettingDataDict);
                     for (int shapeIndex = 0; shapeIndex < skinnedMeshRenderer.sharedMesh.blendShapeCount; shapeIndex++)
                     {
                         var blendShapeWeight = skinnedMeshRenderer.GetBlendShapeWeight(shapeIndex);
                         var blendShapeName = skinnedMeshRenderer.sharedMesh.GetBlendShapeName(shapeIndex);
                         var blendShapesData = new BlendShapesData(skinnedMeshRenderer, blendShapeName, shapeIndex, blendShapeWeight);
-                        if (!_blendShapesSettingDataDict.ContainsKey(blendShapeName))
-                        {
-                            _blendShapesSettingDataDict.Add(blendShapeName, blendShapesData);
-                        }
+                        blendShapesSettingDataDict.Add(blendShapeName, blendShapesData);
                     }
                 }
-            }
 
-            var blendShapesDatas = GetBlendShapesData("Breasts_big");
-            if (blendShapesDatas.Any())
-            {
-                var blendShapesData = blendShapesDatas[0];
-                _breastsBigValue = blendShapesData.SkinnedMeshRenderer.GetBlendShapeWeight(blendShapesData.ShapeIndex);
-            }
-            blendShapesDatas = GetBlendShapesData("Breasts_small");
-            if (blendShapesDatas.Any())
-            {
-                var blendShapesData = blendShapesDatas[0];
-                _breastsSmallValue = blendShapesData.SkinnedMeshRenderer.GetBlendShapeWeight(blendShapesData.ShapeIndex);
+                _customBlendShapesSettingDict.Add("バスト(大)", GetBlendShapesData("Breasts_big", "Blouse_breasts_big"));
+                _customBlendShapesSettingDict.Add("バスト(小)", GetBlendShapesData("Breasts_small", "Blouse_breasts_small"));
             }
         }
 
-        private IReadOnlyList<BlendShapesData> GetBlendShapesData(params string[] blendShapeNames)
+        private List<BlendShapesData> GetBlendShapesData(params string[] blendShapeNames)
         {
             var blendShapesDatas = new List<BlendShapesData>();
-            if (!_blendShapesSettingDataDict.Any())
+            if (!_blendShapesSettingDataList.Any())
             {
                 return blendShapesDatas;
             }
-            foreach (var item in blendShapeNames)
+            foreach (var blendShapeName in blendShapeNames)
             {
-                if (!_blendShapesSettingDataDict.ContainsKey(item))
+                foreach (var item in _blendShapesSettingDataList)
                 {
-                    continue;
+                    if (!item.ContainsKey(blendShapeName))
+                    {
+                        continue;
+                    }
+                    var blendShapesData = item[blendShapeName];
+                    blendShapesDatas.Add(blendShapesData);
                 }
-                var blendShapesData = _blendShapesSettingDataDict[item];
-                blendShapesDatas.Add(blendShapesData);
             }
             return blendShapesDatas;
         }
@@ -76,8 +67,7 @@ namespace MasyoLab.Game.DevelopSample
             serializedObject.Update();
 
             OnSetDefault();
-            BreastsBig();
-            BreastsSmall();
+            CustomSlider();
             CommonSlider();
 
             // ターゲットのオブジェクトに変更を適用
@@ -116,45 +106,41 @@ namespace MasyoLab.Game.DevelopSample
             EditorUtility.FocusProjectWindow();
         }
 
-        private void BreastsBig()
+        private void CustomSlider()
         {
-            EditorGUI.BeginChangeCheck();
-            _breastsBigValue = EditorGUILayout.Slider("バスト(大)", _breastsBigValue, 0, 100f);
-            if (EditorGUI.EndChangeCheck())
+            foreach (var keyValuePair in _customBlendShapesSettingDict)
             {
-                var blendShapesDatas = GetBlendShapesData("Breasts_big", "Blouse_breasts_big");
-                foreach (var blendShapesData in blendShapesDatas)
+                if (!keyValuePair.Value.Any())
                 {
-                    blendShapesData.BlendShapeWeight = _breastsBigValue;
-                    blendShapesData.SkinnedMeshRenderer.SetBlendShapeWeight(blendShapesData.ShapeIndex, _breastsBigValue);
+                    continue;
                 }
-            }
-        }
-
-        private void BreastsSmall()
-        {
-            EditorGUI.BeginChangeCheck();
-            _breastsSmallValue = EditorGUILayout.Slider("バスト(小)", _breastsSmallValue, 0, 100f);
-            if (EditorGUI.EndChangeCheck())
-            {
-                var blendShapesDatas = GetBlendShapesData("Breasts_small", "Blouse_breasts_small");
-                foreach (var blendShapesData in blendShapesDatas)
+                var baseValue = keyValuePair.Value[0];
+                var blendShapeWeight = baseValue.BlendShapeWeight;
+                EditorGUI.BeginChangeCheck();
+                blendShapeWeight = EditorGUILayout.Slider(keyValuePair.Key, blendShapeWeight, 0, 100f);
+                if (EditorGUI.EndChangeCheck())
                 {
-                    blendShapesData.BlendShapeWeight = _breastsSmallValue;
-                    blendShapesData.SkinnedMeshRenderer.SetBlendShapeWeight(blendShapesData.ShapeIndex, _breastsSmallValue);
+                    foreach (var item in keyValuePair.Value)
+                    {
+                        item.BlendShapeWeight = blendShapeWeight;
+                        item.SkinnedMeshRenderer.SetBlendShapeWeight(item.ShapeIndex, blendShapeWeight);
+                    }
                 }
             }
         }
 
         private void CommonSlider()
         {
-            foreach (var item in _blendShapesSettingDataDict)
+            foreach (var keyValuePairs in _blendShapesSettingDataList)
             {
-                EditorGUI.BeginChangeCheck();
-                item.Value.BlendShapeWeight = EditorGUILayout.Slider(item.Value.BlendShapeName, item.Value.BlendShapeWeight, 0, 100f);
-                if (EditorGUI.EndChangeCheck())
+                foreach (var keyValuePair in keyValuePairs)
                 {
-                    item.Value.SkinnedMeshRenderer.SetBlendShapeWeight(item.Value.ShapeIndex, item.Value.BlendShapeWeight);
+                    EditorGUI.BeginChangeCheck();
+                    keyValuePair.Value.BlendShapeWeight = EditorGUILayout.Slider(keyValuePair.Value.BlendShapeName, keyValuePair.Value.BlendShapeWeight, 0, 100f);
+                    if (EditorGUI.EndChangeCheck())
+                    {
+                        keyValuePair.Value.SkinnedMeshRenderer.SetBlendShapeWeight(keyValuePair.Value.ShapeIndex, keyValuePair.Value.BlendShapeWeight);
+                    }
                 }
             }
         }
