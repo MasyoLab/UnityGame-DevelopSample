@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "com.masyo-lab.auto-gitkeeper": "https://github.com/MasyoLab/UnityTools-AutoGitkeeper.git?path=Assets/MasyoLab/AutoGitkeeper",
     "com.masyo-lab.favorites-asset": "https://github.com/MasyoLab/UnityTools-FavoritesAsset.git?path=Assets/MasyoLab/FavoritesAsset",
     "com.masyo-lab.unity-game_framework": "https://github.com/MasyoLab/Unity-GameFramework.git?path=Assets/MasyoLab/GameFramework",
     "com.masyo-lab.vrchat-models": "https://github.com/MasyoLab/VRChatModels.git?path=Assets/Models",

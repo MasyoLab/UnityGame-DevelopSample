@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.masyo-lab.auto-gitkeeper": {
+      "version": "https://github.com/MasyoLab/UnityTools-AutoGitkeeper.git?path=Assets/MasyoLab/AutoGitkeeper",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "beb1b3a204a8cdf0a8dca0d2d696df27fa8400d4"
+    },
     "com.masyo-lab.favorites-asset": {
       "version": "https://github.com/MasyoLab/UnityTools-FavoritesAsset.git?path=Assets/MasyoLab/FavoritesAsset",
       "depth": 0,
@@ -12,7 +19,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "7c716d2f84b6f6df7baefa83c958ee5f3fd29bb4"
+      "hash": "8fb43d7d0292b3099b2805b4f96a733e2b3c755b"
     },
     "com.masyo-lab.vrchat-models": {
       "version": "https://github.com/MasyoLab/VRChatModels.git?path=Assets/Models",

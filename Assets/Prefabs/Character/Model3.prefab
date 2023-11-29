@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8304766644990159895}
   - component: {fileID: 6959225300927319304}
-  - component: {fileID: 571636807705971519}
+  - component: {fileID: 8142344018853138502}
   m_Layer: 0
   m_Name: Model3
   m_TagString: Untagged
@@ -46,7 +46,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _animator: {fileID: 9001454637664950564}
---- !u!114 &571636807705971519
+--- !u!114 &8142344018853138502
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -55,10 +55,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 8304766644990160872}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e688d4e523eb2284d9f8f3cfcf260f51, type: 3}
+  m_Script: {fileID: 11500000, guid: 2fc8f2dd9010c574cbf6f3dbd63e0bf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _blendShapesSettingData: {fileID: 11400000, guid: cd02dcdfde9ba9c4c8bb4a53fe06972f,
+  BlendShapeSettingData: {fileID: 11400000, guid: cd02dcdfde9ba9c4c8bb4a53fe06972f,
     type: 2}
 --- !u!1001 &8304766644360626207
 PrefabInstance:
