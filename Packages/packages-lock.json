@@ -19,7 +19,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "8fb43d7d0292b3099b2805b4f96a733e2b3c755b"
+      "hash": "ff90888fb3168c124c1a5828af6324344164ab10"
     },
     "com.masyo-lab.vrchat-models": {
       "version": "https://github.com/MasyoLab/VRChatModels.git?path=Assets/Models",
