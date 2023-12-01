@@ -21,12 +21,12 @@
       "dependencies": {},
       "hash": "ff90888fb3168c124c1a5828af6324344164ab10"
     },
-    "com.masyo-lab.vrchat-models": {
-      "version": "https://github.com/MasyoLab/VRChatModels.git?path=Assets/Models",
+    "com.masyolab.vrchatassets": {
+      "version": "https://github.com/MasyoLab/VRChatAssets.git?path=Assets/MasyoLab/VRChat",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "7c174375ed12451905d8816988c88c5d93ebc99b"
+      "hash": "6b66fe9df9195c92e2b53c2b630f12804d47b2bd"
     },
     "com.unity.burst": {
       "version": "1.4.11",
