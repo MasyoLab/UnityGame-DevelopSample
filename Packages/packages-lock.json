@@ -12,7 +12,7 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "b05f967ff2e23018c767bfd4db06a493a9bee1e6"
+      "hash": "177b4f7949e470ea42662e5e5da75a0eee04161b"
     },
     "com.masyolab.unity.gameframework": {
       "version": "https://github.com/MasyoLab/Unity-GameFramework.git?path=Assets/MasyoLab/GameFramework",
