@@ -2,7 +2,7 @@
   "dependencies": {
     "com.masyo-lab.auto-gitkeeper": "https://github.com/MasyoLab/UnityTools-AutoGitkeeper.git?path=Assets/MasyoLab/AutoGitkeeper",
     "com.masyo-lab.favorites-asset": "https://github.com/MasyoLab/UnityTools-FavoritesAsset.git?path=Assets/MasyoLab/FavoritesAsset",
-    "com.masyo-lab.unity-game_framework": "https://github.com/MasyoLab/Unity-GameFramework.git?path=Assets/MasyoLab/GameFramework",
+    "com.masyolab.unity.gameframework": "https://github.com/MasyoLab/Unity-GameFramework.git?path=Assets/MasyoLab/GameFramework",
     "com.masyolab.vrchatassets": "https://github.com/MasyoLab/VRChatAssets.git?path=Assets/MasyoLab/VRChat",
     "com.unity.collab-proxy": "1.6.0",
     "com.unity.ide.rider": "1.2.1",
