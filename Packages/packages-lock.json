@@ -12,14 +12,14 @@
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "c56e457844d4326709c3af3d296db1c68ee11e05"
+      "hash": "eac3088295600d3a87396e6a8c6dd43366e8aad5"
     },
     "com.masyolab.unity.gameframework": {
       "version": "https://github.com/MasyoLab/Unity-GameFramework.git?path=Assets/MasyoLab/GameFramework",
       "depth": 0,
       "source": "git",
       "dependencies": {},
-      "hash": "45fc4233c2f3fc88d623bd852122c42b81997007"
+      "hash": "d2f110e536bb7a98cff46ffe2b27e0f17a068f71"
     },
     "com.masyolab.vrchatassets": {
       "version": "https://github.com/MasyoLab/VRChatAssets.git?path=Assets/MasyoLab/VRChat",
