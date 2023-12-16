@@ -1,0 +1,16 @@
+{
+    "name": "MasyoLab.GameDevelopSample",
+    "references": [
+        "GUID:e891905a7f867264db62180912f6cb7a",
+        "GUID:560b04d1a97f54a4e82edc0cbbb69285"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
